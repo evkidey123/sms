@@ -8,16 +8,16 @@ banner = """
 |                                                    |
 | [--] Have Services: 51                             |
 |                                                    |
-| [--] Created by: @c3berman                         |
+| [--] Created by: Дейнега Евгений                         |
 |                                                    |
-| [--] Telegram channel: @detectent                  |
+| [--] Telegram channel: @evikdey  |
 |                                                    |
 | [--] Version: 1.0.6                                |
 |____________________________________________________|
 """
 
 print(banner)
-_phone = input('Hello! Number for attack (79xxxxxxxxx)-->> ')
+_phone = input('Привет! Ваня, введи номер телефона додика --->> ')
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
